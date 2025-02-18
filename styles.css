@@ -1,0 +1,111 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            position: fixed;
+            background-color: #f39146e3;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+    
+        }
+        
+        body {
+            background-color: #fff;
+            color: #333;
+            padding: 20px;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 900px;
+            margin: auto;
+            padding: 50px 0;
+        }
+
+        .content {
+            max-width: 50%;
+        }
+
+        .title {
+            font-size: 48px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .subtitle {
+            font-size: 30px;
+            color: #0e0000;
+            margin: 20px 0;
+        }
+
+        .description {
+            font-size: 30px;
+            line-height: 1.5;
+            color: #070000;
+        }
+
+    
+        .bullet-section {
+            margin-top: 20px;
+        }
+
+        .bullet-title {
+            font-size: 50px;
+            font-weight: bold;
+            color: #080000;
+            margin-bottom: 10px;
+        }
+
+        
+        .bullet-list {
+            list-style: none;
+            padding-left: 0;
+        
+        }
+        .bullet-list li {
+            font-size: 30px;
+            color: #0e0000;
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .bullet-list li::before {
+            list-style: none;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .image-container img {
+         max-width: 800px; 
+         border-radius: 10px;
+        }
+        .bullet-list li:hover {
+            animation: bouncing 0.9s ease-in-out;
+        }
+
+        @keyframes bouncing {
+            0%, 50% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        footer {
+            position: relative;
+            width: 100%;
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+        }
+   
